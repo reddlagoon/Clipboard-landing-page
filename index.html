@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style type="text/tailwindcss">
+      @theme {
+        --color-Green-500: hsl(171, 66%, 44%);
+        --color-Blue-100: hsl(233, 100%, 69%);
+        --color-Gray-700: hsl(210, 10%, 33%);
+        --Gray-500: hsl(201, 11%, 66%);
+        --font-bai-jamjuree: "Bai Jamjuree", sans-serif;
+        --font-family: "Bai Jamjuree", sans-serif;
+      }
+    </style>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="w-full min-h-screen">
+    <main
+      class="w-full bg-[url(./images/bg-header-mobile.png)] bg-no-repeat bg-contain lg:bg-[url(./images/bg-header-desktop.png)]"
+    >
+      <section
+        class="w-full min-h-screen lg:min-h-[600px] flex flex-col items-center justify-center gap-[20px] p-8"
+      >
+        <img src="./images/logo.svg" alt="" />
+
+        <h1
+          class="text-gray-700 text-3xl lg-8xl text-bold font-bold font-bai-jamjuree text-center"
+        >
+          A history of everything you copy
+        </h1>
+
+        <p
+          class="text-gray-500 lg:text-l font-regular font-bai-jamjuree text-center"
+        >
+          Clipboard allows you to track and organise everything you copy.
+          Instantly <br />
+          acess your clipboard on all your devices.
+        </p>
+
+        <div class="flex flex-col gap-4 lg:flex-row">
+          <button
+            class="bg-Green-500 px-20 py-4 rounded-full text-white shadow-2xl"
+          >
+            Download for IOS
+          </button>
+
+          <button
+            class="bg-Blue-100 px-20 py-4 rounded-full text-white shadow-2xl"
+          >
+            Download for Mac
+          </button>
+        </div>
+      </section>
+
+      <section>
+        <div class="flex flex-col items-center py-[70px] gap-6">
+          <h1
+            class="text-gray-700 text-3xl lg-6xl text-bold font-bold font-bai-jamjuree text-center"
+          >
+            Keep track of your sinppets
+          </h1>
+
+          <p
+            class="text-gray-500 text-md lg:text-lg font-regular font-bai-jamjuree text-center w-[315px] lg:w-[700px]"
+          >
+            Clipboard instantly store any item you copy in the cloud,meaning you
+            can access sinppets immediately ona all your devices. Our Mac and
+            iOS apps will help you organize everything.
+          </p>
+        </div>
+
+        <div class="flex flex-col lg:flex-row gap-[60px] px-20 items-center">
+          <img src="./images/image-computer.png" alt="" />
+
+          <div class="flex flex-col gap-10">
+            <div>
+              <h1
+                class="text-gray-700 text-2xl lg-2xl font-bold font-bai-jamjuree text-center lg:text-left"
+              >
+                Quick Search
+              </h1>
+              <p
+                class="text-gray-500 lg:text-md font-regular font-bai-jamjuree text-center lg:text-left"
+              >
+                Easily search your snippets by content, category, web address,
+                application, and more
+              </p>
+            </div>
+            <div>
+              <h1
+                class="text-gray-700 text-2xl lg-2xl font-bold font-bai-jamjuree text-center lg:text-left"
+              >
+                icloud sync
+              </h1>
+              <p
+                class="text-gray-500 lg:text-md font-regular font-bai-jamjuree text-center lg:text-left"
+              >
+                instantly saves and syncs snippets across all your devices.
+              </p>
+            </div>
+            <div>
+              <h1
+                class="text-gray-700 text-2xl lg-2xl font-bold font-bai-jamjuree text-center lg:text-left"
+              >
+                Complete History
+              </h1>
+              <p
+                class="text-gray-500 lg:text-md font-regular font-bai-jamjuree text-center lg:text-left"
+              >
+                Retrive any snippets from the frist moment you started using the
+                app.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="flex flex-col items-center py-[100px] gap-6">
+        <div class="flex flex-col items-center gap-6">
+          <h1
+            class="text-gray-700 text-3xl lg-6xl text-bold font-bold font-bai-jamjuree text-center"
+          >
+            Access Clipboard Anywhere
+          </h1>
+          <p
+            class="text-gray-500 text-md lg:text-lg font-regular font-bai-jamjuree text-center w-[315px] lg:w-[700px]"
+          >
+            whether you're on the go, or at your computer, you can access all
+            your Clipboard snippents in a few simple clicks.
+          </p>
+        </div>
+
+        <img src="./images/image-devices.png" alt="" />
+      </section>
+
+      <section class="flex flex-col items-center gap-[50px] py-[100px]">
+
+        <div class="flex flex-col items-center gap-6">
+          <h1
+            class="text-gray-700 text-3xl lg-6xl text-bold font-bold font-bai-jamjuree text-center"
+          >
+            Supercharge your workflow
+          </h1>
+          <p
+            class="text-gray-500 text-md lg:text-lg font-regular font-bai-jamjuree text-center w-[315px] lg:w-[700px]"
+          >
+            we've got the tools to boost your productivity.
+          </p>
+        </div>
+
+        <div class="flex flex-col gap-10 px-8 lg:flex-row lg:justify-center items-center lg:px-40 px-5">
+
+          <div class="flex flex-col items-center lg:w-[33.3%] gap-6">
+            <img class="w-[15%] lg:w-[10%]" src="./images/icon-blacklist.svg" alt="" />
+            <h2
+              class="text-gray-700 text-2xl lg-2xl font-bold font-bai-jamjuree text-center"
+            >
+              Create balicklists
+            </h2>
+            <p
+              class="text-gray-500 lg:text-md font-regular font-bai-jamjuree text-center"
+            >
+              Ensure sensitive in formation never makes its way to your
+              clipboard by excluding certain sources
+            </p>
+          </div>
+
+          <div class="flex flex-col items-center lg:w-[33.3%] gap-6">
+            <img class="w-[15%] lg:w-[10%]" src="./images/icon-text.svg" alt="" />
+            <h2
+              class="text-gray-700 text-2xl lg-2xl font-bold font-bai-jamjuree text-center"
+            >
+              Plain text sinppets
+            </h2>
+            <p
+              class="text-gray-500 lg:text-md font-regular font-bai-jamjuree text-center"
+            >
+              Remove unwanted formatting from copied text for a consistent looks.
+            </p>
+          </div>
+
+          <div class="flex flex-col items-center lg:w-[33.3%] gap-6">
+            <img class="w-[15%] lg:w-[10%]" src="./images/icon-preview.svg" alt="" />
+            <h2
+              class="text-gray-700 text-2xl lg-2xl font-bold font-bai-jamjuree text-center"
+            >
+              Sneak preview
+            </h2>
+            <p
+              class="text-gray-500 lg:text-md font-regular font-bai-jamjuree text-center"
+            >
+              Quick preview of all snippents on your Clipboard for easy access.
+            </p>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="flex flex-col items-center py-[30px] gap-6">
+        <div
+          class="flex flex-col lg:flex-row gap-20 items-center justify-center py-[100px]"
+        >
+          <img src="./images/logo-google.png" alt="" />
+          <img src="./images/logo-ibm.png" alt="" />
+          <img src="./images/logo-microsoft.png" alt="" />
+          <img src="./images/logo-hp.png" alt="" />
+          <img src="./images/logo-vector-graphics.png" alt="" />
+        </div>
+      </section>
+
+      <section class="py-[50px]">
+
+        <div class=" flex flex-col gap-[30px] items-center ">
+
+        <div class="flex flex-col gap-[10px]">
+        <h1 class="text-gray-700 text-3xl lg-6xl text-bold font-bold font-bai-jamjuree text-center">Clipboard for iOS and Mac OS</h1>
+        <p class="text-gray-500 lg:text-l font-regular font-bai-jamjuree text-center">Available for free on the App store. Downloadbfor Mac or iOS, sync with icloud and your re ready to start adding to your clipboard.</p>
+        </div>
+
+        <div class="flex flex-col gap-4 lg:flex-row">
+          <button
+            class="bg-Green-500 px-20 py-4 rounded-full text-white shadow-2xl"
+          >
+            Download for IOS
+          </button>
+
+          <button
+            class="bg-Blue-100 px-20 py-4 rounded-full text-white shadow-2xl"
+          >
+            Download for Mac
+          </button>
+        </div>
+
+        </div>
+
+      </section>
+
+      <footer class="font-bai-jamjuree font-gray-700 justify-between flex px-[100px] py-[40px] bg-[#e7e7e7] flex flex-col lg:flex-row justify-between gap-20">
+
+       <div class="flex flex-col lg:flex lg:flex-row lg:gap-30 gap-20">
+
+       <div class="flex flex-col lg:flex lg:flex-row lg:gap-30 justify-center text-center lg:text-left items-center gap-20">
+
+       <img src="./images/logo.svg" alt="" class="w-[80px] h-[80px]">
+
+       <nav class="flex flex-col lg:gap-30 gap-10 lg:flex-row ">
+         <div class="flex flex-col gap-6">
+         <a href="/##">FAQs</a>
+         <a href="/##">Contact Us</a>
+         </div>
+         <div class="flex flex-col gap-6">
+         <a href="/##">Privacy policy</a>
+         <a href="/##">Press Kit</a>
+         </div>
+         <a class="flex flex-col gap-10" href="/##">Install Guide</a>
+       </nav>
+
+       </div>
+
+       </div>
+
+       <div class="flex gap-10">
+        <img src="./images/icon-facebook.svg" alt="" class="w-[24px] h-[24px]">
+        <img src="./images/icon-instagram.svg" alt="" class="w-[24px] h-[24px]">
+        <img src="./images/icon-twitter.svg" alt="" class="w-[24px] h-[24px]">
+       </div>
+
+      </footer>
+
+
+    </main>
+  </body>
+</html>
